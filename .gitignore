@@ -28,6 +28,7 @@ setup.log
 # Local OPAM switch
 _opam/
 
+# MirageOS build files (make depend)
 .mirage.config
 Makefile
 dune
@@ -37,3 +38,7 @@ key_gen.ml
 main.ml
 *.opam
 myocamlbuild.ml
+
+# MirageOS build files (make && solo5-hvt)
+*.hvt
+info_gen*
