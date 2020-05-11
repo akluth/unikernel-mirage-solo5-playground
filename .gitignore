@@ -27,3 +27,13 @@ setup.log
 
 # Local OPAM switch
 _opam/
+
+.mirage.config
+Makefile
+dune
+dune*
+dune.*
+key_gen.ml
+main.ml
+*.opam
+myocamlbuild.ml
